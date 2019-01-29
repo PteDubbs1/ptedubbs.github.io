@@ -19,6 +19,7 @@
 #sidebar{
 	float: right;
 	color: white;
+	height: 100%;
 }
 
 .button {
