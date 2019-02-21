@@ -1,5 +1,12 @@
 <html>
 <head>
+  <script>
+    var frame = document.querySelector("iframe");
+header = frame.contentDocument.querySelector("header");
+header.remove();
+footer = frame.contentDocument.querySelector("footer");
+footer.remove();
+  </script>
 <title>Pte Dubbs Official Site</title>
 <link rel="icon" href="ico.png"/>
 <link rel="stylesheet" type="text/css" href="style.css"/>
