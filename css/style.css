@@ -1,3 +1,10 @@
+RewriteRule ^Home$ index.html [L]
+RewriteRule ^About$ about.html [L]
+RewriteRule ^Chat$ chat.html [L]
+RewriteRule ^Gallery$ gallery.html [L]
+RewriteRule ^Social$ social.html [L]
+RewriteRule ^Blog$ blog.html [L]
+
 html
 { height: 100%;}
 
